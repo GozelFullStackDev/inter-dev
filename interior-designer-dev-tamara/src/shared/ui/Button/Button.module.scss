@@ -1,0 +1,16 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--color-primary);
+    padding: 5px 10px; 
+    color: #CEDBE9;
+    font-size: var(--font-size-l);
+    
+    &:hover {
+        background-color: var(--color-secondary);
+        color: #4A4747;
+    }
+}
